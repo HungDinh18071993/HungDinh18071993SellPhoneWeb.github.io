@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+html,body,.container {
+    height:100%;
+}
+.dashbar {
+    background-color: rgba(15, 4, 26, 0.966);
+}
+.content {
+    background-color: rgba(128, 38, 218, 0.966);
+}
+.container {
+    display:table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.row .no-float {
+  width: 100%;
+}
+
+.img{
+    float:none;
+    width: 103%;
+    margin-left: -15px;
+    padding-right: -50px;
+    height: 50%;
+}
+.btn-light:hover, .btn-light:focus, .btn-light:active, .btn-light.active, .open>.dropdown-toggle.btn-light {
+    background-color: #00b3db;
+}
+.icon{
+    margin-left: 20px;
+    color: black;
+}
+.menu{
+    right:0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.tr{
+    background-color: rgb(176, 198, 245);
+}
+.welcome{
+	left:0;
+	margin-right: 20px;
+    margin-top: 20px;
+}
